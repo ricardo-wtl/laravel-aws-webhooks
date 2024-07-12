@@ -54,10 +54,10 @@
             ]
         }
     },
-    "repositories": {
+    "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/laravel-shift/laravel-sns-events"
         }
-    }
+    ]
 }
