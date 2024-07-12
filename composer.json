@@ -22,7 +22,7 @@
     "require": {
         "illuminate/http": "^9.35|^10.5|^11.0",
         "illuminate/support": "^9.35|^10.5|^11.0",
-        "rennokki/laravel-sns-events": "^7.2"
+        "rennokki/laravel-sns-events": "dev-l11-compatibility"
     },
     "autoload": {
         "psr-4": {
@@ -52,6 +52,12 @@
             "providers": [
                 "RenokiCo\\AwsWebhooks\\AwsWebhooksServiceProvider"
             ]
+        }
+    },
+    "repositories": {
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel-shift/laravel-sns-events"
         }
     }
 }
